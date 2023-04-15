@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div className='flex m-8'>
 
-            <div className='btn w-[280px] h-[300px] hover:border-white  border-2 border-purple-900 rounded-md my-4 m-2 '>
+            <div className='btn w-[180px] h-[200px] md:w-[280px] md:h-[300px] hover:border-white  border-2 border-purple-900 rounded-md my-4 m-2 '>
                 <div className='flex flex-col justify-around align-middle h-full transition-all   '>
                     <Image src={img1} className='mx-auto ' height={100} width={100} alt='img1' />
 
@@ -16,7 +16,7 @@ const Projects = () => {
                 </div>
 
             </div>
-            <div className='btn w-[280px] h-[300px] hover:border-white  border-2 border-purple-900 rounded-md my-4 m-2 '>
+            <div className='btn w-[180px] h-[200px] md:w-[280px] md:h-[300px] hover:border-white  border-2 border-purple-900 rounded-md my-4 m-2 '>
                 <div className='flex flex-col justify-around align-middle h-full transition-all   '>
                     <Image src={img2} className='mx-auto ' height={100} width={100} alt='img1' />
 

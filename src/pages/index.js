@@ -34,21 +34,21 @@ export default function Home() {
   var arr = [{ skill: "WEB DEVELOPER" }, { skill: "REACT DEVELOPER" }, { skill: "REACT NATIVE DEVELOPER" }]
   return (
 
-    <div className=' w-[100vw] h-[100vh] bg-purple-500  grid grid-rows-[80px_550px_600px_550px_600px] overflow-x-hidden mx-auto grid-cols-4 text-center gap-0.5 text-white'>
+    <div className=' w-[100vw] h-[100vh] bg-purple-500  grid grid-rows-[80px_550px_650px_550px_600px] overflow-x-hidden mx-auto grid-cols-4 text-center gap-0.5 text-white'>
       <div className='bg-slate-950 col-span-4  hover:bg-slate-400' >
         <Header />
       </div>
       <div className='bg-slate-950 col-span-4'>
         <div className='flex'>
-          <h1 className='text-slate-200 text-start ml-8 my-8 text-4xl font-bold ' >Hi,I'm </h1>
-          <h2 className='text-purple-500 text-start my-8 ml-1 text-4xl font-bold '> Muzammil Ali</h2>
+          <h1 className='text-slate-200 text-start ml-8 my-8 text-3xl md:text-4xl font-bold ' >Hi,I'm </h1>
+          <h2 className='text-purple-500 text-start my-8 ml-1 text-3xl md:text-4xl font-bold '> Muzammil Ali</h2>
         </div>
-        <div className='w-full h-full' style={{ marginTop: "-20px" }}>
+        <div className=' w-72 h-72 md:w-full md:h-full' style={{ marginTop: "-20px" }}>
           <Pc/>
         </div>
 
       </div>
-      <div className='bg-slate-950 col-span-4 md:col-span-2 p-8'>
+      <div className='bg-slate-950 col-span-4 md:col-span-2 p-8 row-span-2 md:row-span-1'>
 
        <About/>
       </div>

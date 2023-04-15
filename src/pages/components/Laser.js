@@ -30,10 +30,10 @@ const Laser = () => {
   return (
     <div className='flex flex-col justify-center w-full'>
         <h1 className='text-start text-3xl font-bold text-purple-500 m-4'>Laser Cutting Projects</h1>
-        <div className='bg-slate-50 h-[350px] w-[450px] mx-auto flex justify-center rounded-md'>
+        <div className='bg-slate-50 h-[250] w-[350] md:h-[350px] md:w-[450px] mx-auto flex justify-center rounded-md'>
           <Image className='w-full h-full rounded-md object-contain bg-slate-950' src={arr[count]} height={100} width={250} alt='img1'/>
         </div>
-          <div className='flex justify-around w-[450px] mx-auto mt-5'>
+          <div className='flex justify-around w-[350px] md:w-[450px] mx-auto mt-5'>
             <button className='bg-slate-500 w-[80px] hover:border-purple-500 border-2 border-slate-950 rounded-md transition-all duration-75 delay-75 ' onClick={()=>{dec()}}>PREV</button>
             <button className='bg-slate-500 w-[80px] hover:border-purple-500 border-2 border-slate-950 rounded-md ' onClick={()=>{inc()}}>NEXT</button>
           </div>
