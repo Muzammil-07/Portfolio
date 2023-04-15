@@ -30,7 +30,7 @@ const Pc = () => {
         <PerspectiveCamera makeDefault position={[-2,2,5]} /> {/* <ambientLight intensity={1}/> */}
      {/* <Model/> */}
        {/* <Pc1/> */}
-   {/* <Computer/> */}
+   <Computer/>
     </Suspense>
    </Canvas>
   )
