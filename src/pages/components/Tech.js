@@ -5,7 +5,7 @@ import { useFrame } from '@react-three/fiber'
 
     
        const Globe =(props)=>{
-     console.log(props.position)
+     
         useFrame((state)=>{
     //    console.log(state.clock.getElapsedTime())
     let a =state.clock.getElapsedTime()
