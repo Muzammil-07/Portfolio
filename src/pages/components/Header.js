@@ -19,7 +19,7 @@ const Header = () => {
           <Link href='/components/Projects'>Work </Link> 
           </div>
           <div className='hover:text-purple-300 my-auto'>
-          <Link href='/components/About'>Contact </Link> 
+          <Link href='/components/Contact'>Contact </Link> 
           </div>
         </div>
     </div>

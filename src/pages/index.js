@@ -10,6 +10,7 @@ import Tech from './components/Tech'
 import Projects from './components/Projects'
 import Laser from './components/Laser'
 import About from './components/About'
+import Contact from './components/Contact'
 const inter = Inter({ subsets: ['latin'] })
 
 
@@ -34,7 +35,7 @@ export default function Home() {
   var arr = [{ skill: "WEB DEVELOPER" }, { skill: "REACT DEVELOPER" }, { skill: "REACT NATIVE DEVELOPER" }]
   return (
 
-    <div className=' w-[100vw] h-[100vh] bg-purple-500  grid md:grid-rows-[80px_550px_650px_550px_600px] grid-rows-[80px_450px_650px_550px_600px] overflow-x-hidden mx-auto grid-cols-4 text-center gap-0.5 text-white'>
+    <div className=' w-[100vw] h-[100vh] bg-purple-500  grid md:grid-rows-[80px_550px_650px_550px_600px_500px] grid-rows-[80px_450px_650px_550px_600px_500px] overflow-x-hidden mx-auto grid-cols-4 text-center gap-0.5 text-white'>
       <div className='bg-slate-950 col-span-4  hover:bg-slate-400' >
         <Header />
       </div>
@@ -62,8 +63,10 @@ export default function Home() {
       <div className='bg-slate-950 col-span-4'>
         <Laser/>  
       </div>
-      <div className='bg-gray-800 '>srventh</div>
-      <div className='bg-gray-800'>eight</div>
+      <div className='bg-slate-950 col-span-4 '>
+        <Contact/>
+      </div>
+      {/* <div className='bg-gray-800'>eight</div> */}
 
     </div>
 
