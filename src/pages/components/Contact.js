@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState,useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { useRouter } from 'next/router'
 
 
 const Contact = () => {
+    const router=useRouter();
     const form1 = useRef()
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -15,15 +17,15 @@ const Contact = () => {
         from_name: email,
         message:msg
      }    
-     const sendEmail =()=>{
-       
-
+     const sendEmail =(e)=>{
+        e.preventDefault();
      console.log(name,email,msg);
      emailjs.sendForm('service_eoh43oe', 'template_r8dcsjk', form1.current, process.env.API_KEY)
      .then((result) => {
-         console.log(result.text);
+       alert("Message Sent");
+       router.reload('/')
      }, (error) => {
-         console.log(error.text);
+         alert(error.text);
      });
      }
 
