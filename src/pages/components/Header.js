@@ -39,7 +39,7 @@ const Header = () => {
           </svg>
 
         </a>
-        <a href='/cv.pdf' className='btn hover:text-purple-400 text-lg  hover:border-purple-400 text-center border  h-[40px] w-[140px] rounded-md my-auto' target='_blank'><h1 className='mt-1'>Download CV</h1> </a>
+        <a href='/cv.pdf' className='btn hover:text-purple-400 text-sm md:text-lg hover:border-purple-400 text-center border  h-[40px] md:w-[140px] w-[100px] rounded-md my-auto mr-8 md:mr-4 ' target='_blank'><h1 className='mt-1'>Download CV</h1> </a>
       </div>
       <div className='flex  gap-8 mx-8 justify-center '>
         <div className='hover:text-purple-300 my-auto'>

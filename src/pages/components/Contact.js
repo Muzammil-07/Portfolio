@@ -32,7 +32,7 @@ const Contact = () => {
     return (
         <div className='p-8 flex justify-start flex-col text-white'>
             <h1 className='text-3xl text-start text-purple-500 font-bold my-4'>CONTACT</h1>
-               <form ref={form1} onSubmit={sendEmail}>
+               <form ref={form1} onSubmit={sendEmail} className='w-full'>
                 <div className='flex justify-start my-2'>
 
                     <div>
@@ -49,12 +49,14 @@ const Contact = () => {
                 <div className='flex justify-start my-2 '>
                     <div>
                         <label className='text-2xl mr-2 align-top'>Message</label>
-                        <textarea className='text-amber-700 w-96 rounded-md p-2' name='message' rows="4" onChange={(e)=>{setMsg(e.target.value)}} />
+                        <textarea className='text-amber-700 w-72 rounded-md p-2 mx-auto' name='message' rows="4" onChange={(e)=>{setMsg(e.target.value)}} />
                     </div>
 
                 </div>
-                <button type='submit'  className=' w-[100px] h-[40px] rounded-md text-xl hover:text-slate-950 hover:border-white border-2 border-slate-500 bg-purple-600 ml-96'
+                
+                <button type='submit'  className=' w-[120px] h-[40px] rounded-md text-xl self-start hover:text-slate-950 hover:border-white border-2 border-slate-500 bg-purple-600 ml-96'
                >Submit</button>
+            
            
            </form>
         </div>
