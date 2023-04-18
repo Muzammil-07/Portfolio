@@ -11,9 +11,9 @@ const About = () => {
       })
   return (
     <div className='md:p-8 p-2 bg-slate-950  '>
-    <h3 className='text-start '>INTRODUCTION</h3>
+    <h3 className='text-start text-white '>INTRODUCTION</h3>
     <h1 className='text-start text-3xl font-bold text-purple-500 my-2'>OVERVIEW</h1>
-    <p className=' text-justify text-lg text-white'>I am a mern stack developer , I develop Web Apps using HTML CSS JAVASCRIPT REACTjs AND NEXTjs
+    <p className=' text-justify text-lg text-white md:w-96 w-full '>I am a mern stack developer , I develop Web Apps using HTML CSS JAVASCRIPT REACTjs AND NEXTjs
      for Mobile App development I use Expo CLi and React NATIVE , I also work on Three JS ,Tailwind Css and Bootstrap </p>
     <div className='flex flex-col md:flex-row' ref={ref}>
 

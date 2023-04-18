@@ -29,7 +29,7 @@ const Laser = () => {
    
   return (
     <div className='flex flex-col justify-center w-full'>
-        <h1 className='text-start text-3xl font-bold text-purple-500 m-4'>Laser Cutting Projects</h1>
+        <h1 className='text-start text-3xl font-bold text-purple-500 m-4'>Recent Job  Projects</h1>
         <div className='bg-slate-50 h-[250] w-[350] md:h-[350px] md:w-[450px] mx-auto flex justify-center rounded-md'>
           <Image className='w-full h-full rounded-md object-contain bg-slate-950' src={arr[count]} height={100} width={250} alt='img1'/>
         </div>
