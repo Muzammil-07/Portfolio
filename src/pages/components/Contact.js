@@ -54,11 +54,12 @@ const Contact = () => {
 
                 </div>
                 
-                <button type='submit'  className=' w-[120px] h-[40px] rounded-md text-xl self-start hover:text-slate-950 hover:border-white border-2 border-slate-500 bg-purple-600 ml-96'
-               >Submit</button>
+              
             
            
            </form>
+           <button type='submit'  className=' w-[120px] h-[40px] rounded-md text-xl mx-auto md:ml-96 hover:text-slate-950 hover:border-white border-2 border-slate-500 bg-purple-600 '
+               >Submit</button>
         </div>
     )
 }
