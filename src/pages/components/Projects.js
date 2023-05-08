@@ -7,7 +7,7 @@ import img4 from '../components/images/clock.png'
 
 const Projects = () => {
     return (
-        <div className='flex m-8 flex-wrap'>
+        <div className='flex m-8 flex-wrap justify-center'>
 
             <div className='btn w-[180px] h-[200px] md:w-[280px] md:h-[300px] hover:border-white  border-2 border-purple-900 rounded-md my-4 m-2 '>
                 <div className='flex flex-col justify-around align-middle h-full transition-all   '>
@@ -36,7 +36,7 @@ const Projects = () => {
                 </div>
 
             </div>
-             <div className='btn w-[180px] h-[200px] md:w-[280px] md:h-[300px] hover:border-white  border-2 border-purple-900 rounded-md my-4 m-2 '>
+             {/* <div className='btn w-[180px] h-[200px] md:w-[280px] md:h-[300px] hover:border-white  border-2 border-purple-900 rounded-md my-4 m-2 '>
                 <div className='flex flex-col justify-around align-middle h-full transition-all   '>
                     <Image src={img4} className='mx-auto ' height={100} width={100} alt='img1' />
 
@@ -44,7 +44,7 @@ const Projects = () => {
                     <a href='https://clockpk.netlify.app/' target='_blank' className='underline-offset-4 text-center text-blue-400 hover:text-white '> <u>Visit Clock</u></a>
                 </div>
 
-            </div>
+            </div> */}
         
         </div>
     )

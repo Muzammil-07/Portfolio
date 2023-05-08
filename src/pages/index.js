@@ -35,7 +35,7 @@ export default function Home() {
   var arr = [{ skill: "WEB DEVELOPER" }, { skill: "REACT DEVELOPER" }, { skill: "REACT NATIVE DEVELOPER" }]
   return (
 
-    <div className=' w-[100vw] h-[100vh] bg-purple-500  grid md:grid-rows-[80px_550px_650px_850px_600px_600px] grid-rows-[260px_450px_650px_850_600px_600px] overflow-x-hidden mx-auto grid-cols-4 text-center gap-0.5 text-white'>
+    <div className=' w-[100vw] h-[100vh] bg-purple-500  grid md:grid-rows-[80px_550px_650px_650px_650px] grid-rows-[260px_450px_650px_450px_600px] overflow-x-hidden mx-auto grid-cols-4 text-center gap-0.5 text-white'>
       <div className='bg-slate-950 col-span-4  hover:bg-slate-400' >
         <Header />
       </div>
