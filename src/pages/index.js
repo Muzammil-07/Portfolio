@@ -17,8 +17,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Home() {
-  
-  
+
+
   const [comp, setComp] = useState('none')
 
   // useEffect(() => {
@@ -35,7 +35,7 @@ export default function Home() {
   var arr = [{ skill: "WEB DEVELOPER" }, { skill: "REACT DEVELOPER" }, { skill: "REACT NATIVE DEVELOPER" }]
   return (
 
-    <div className=' w-[100vw] h-[100vh] bg-purple-500  grid md:grid-rows-[80px_550px_650px_650px_650px] grid-rows-[260px_450px_650px_450px_600px] overflow-x-hidden mx-auto grid-cols-4 text-center gap-0.5 text-white'>
+    <div className=' w-[100vw] h-[100vh] bg-purple-500  grid md:grid-rows-[80px_550px_650px_1fr_650px] grid-rows-[260px_450px_650px_450px_600px] overflow-x-hidden mx-auto grid-cols-4 text-center gap-0.5 text-white'>
       <div className='bg-slate-950 col-span-4  hover:bg-slate-400' >
         <Header />
       </div>
@@ -45,26 +45,26 @@ export default function Home() {
           <h2 className='text-purple-500 text-start my-8 ml-1 text-3xl md:text-4xl font-bold '> Muzammil Ali</h2>
         </div>
         <div className=' w-96 h-72 md:w-full md:h-full' style={{ marginTop: "-20px" }}>
-          <Pc/>
+          <Pc />
         </div>
 
       </div>
       <div className='bg-slate-950 col-span-4 md:col-span-2 p-8 row-span-2 md:row-span-1'>
 
-       <About/>
+        <About />
       </div>
-      <div className='bg-slate-950 col-span-4 md:col-span-2 -ml-2'>
-        <Tech/>
-      </div>
-      <div className='bg-slate-950 col-span-4'>
-        <h1 className='text-4xl m-8 text-purple-500 text-start font-bold'> PROJECTS</h1>
-        <Projects/>
-      </div>
-      <div className='bg-slate-950 col-span-4'>
-        <Laser/>  
+      <div className='bg-slate-950 col-span-4  md:col-span-2 -ml-2'>
+        <Tech />
       </div>
       <div className='bg-slate-950 col-span-4 '>
-        <Contact/>
+        <h1 className='text-4xl m-8 text-purple-500 text-start font-bold '> PROJECTS</h1>
+        <Projects />
+      </div>
+      {/* <div className='bg-slate-950 col-span-4'>
+        <Laser/>  
+      </div> */}
+      <div className='bg-slate-950 col-span-4 '>
+        <Contact />
       </div>
       {/* <div className='bg-gray-800'>eight</div> */}
 
